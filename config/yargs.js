@@ -6,13 +6,13 @@ const argv = require('yargs')
         describe:'Define multiplication base'
     })
     .option('l',{
-        alias: 'listar',
+        alias: 'list',
         type: 'boolean',
         default: false,
         describe:'Show data in console'
     })
-    .option('h',{
-        alias: 'hasta',
+    .option('t',{
+        alias: 'to',
         type: 'number',
         default: 10,
         describe:'Number max table'
